@@ -59,6 +59,7 @@
   padding-bottom: 128px;
   background-color: #000915;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -73,16 +74,19 @@
   font-size: 24px;
   font-weight: 600;
   line-height: 32px;
+  border-radius: 16px;
 
-  &-1 {
+  &:first-child {
     background-image: url(./image/game-1-bck.png);
   }
 
-  &-2 {
+  &:nth-child(2) {
     background-image: url(./image/game-2-bck.png);
   }
 
-  &-3 {
+  &:last-child {
     background-image: url(./image/game-3-bck.png);
   }
 }
+
+@import "mobile";
