@@ -54,6 +54,7 @@
   padding-bottom: 128px;
   background-color: #000915;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -68,13 +69,62 @@
   font-size: 24px;
   font-weight: 600;
   line-height: 32px;
+  border-radius: 16px;
 }
-.game-1 {
+.game:first-child {
   background-image: url(./image/game-1-bck.png);
 }
-.game-2 {
+.game:nth-child(2) {
   background-image: url(./image/game-2-bck.png);
 }
-.game-3 {
+.game:last-child {
   background-image: url(./image/game-3-bck.png);
+}
+
+@media (max-width: 768px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .header__box {
+    padding-top: 238px;
+    padding-bottom: 238px;
+    width: 100%;
+    text-align: center;
+  }
+  .header__title {
+    font-size: 32px;
+    line-height: 39px;
+  }
+  .header__text {
+    margin-bottom: 32px;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .main {
+    gap: 32px;
+    align-items: center;
+    justify-content: center;
+  }
+  .game {
+    width: 343px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1240px) {
+  .center {
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+  .main {
+    gap: 32px;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .header__box {
+    width: 100%;
+  }
 }/*# sourceMappingURL=style.css.map */
