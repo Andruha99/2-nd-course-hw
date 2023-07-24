@@ -25,7 +25,7 @@
     }
   }
 
-  .main {
+  .game-container {
     gap: 32px;
     align-items: center;
     justify-content: center;
@@ -33,6 +33,30 @@
 
   .game {
     width: 343px;
+  }
+
+  .seasons-game {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 64px;
+    text-align: center;
+    padding-top: 51px;
+    padding-bottom: 85px;
+
+    &__title {
+      font-size: 32px;
+    }
+
+    &__text {
+      width: 100%;
+      font-size: 14px;
+      line-height: 22px;
+    }
+
+    &__img {
+      justify-self: center;
+      max-width: 314px;
+    }
   }
 }
 
@@ -42,10 +66,15 @@
     padding-right: 120px;
   }
 
-  .main {
+  .game-container {
     gap: 32px;
     align-items: center;
     justify-content: center;
+  }
+
+  .seasons-game {
+    flex-wrap: wrap;
+    gap: 64px;
   }
 }
 
