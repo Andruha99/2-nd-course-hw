@@ -35,7 +35,7 @@
     width: 343px;
   }
 
-  .seasons-game {
+  .play-game {
     flex-wrap: wrap;
     justify-content: space-around;
     gap: 64px;
@@ -58,6 +58,10 @@
       max-width: 314px;
     }
   }
+
+  .remember-game {
+    flex-wrap: wrap-reverse;
+  }
 }
 
 @media (min-width: 769px) and (max-width: 1240px) {
@@ -72,7 +76,7 @@
     justify-content: center;
   }
 
-  .seasons-game {
+  .play-game {
     flex-wrap: wrap;
     gap: 64px;
   }

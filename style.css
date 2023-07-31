@@ -84,7 +84,7 @@
   background-image: url(./image/game-3-bck.png);
 }
 
-.seasons-game {
+.play-game {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -92,13 +92,13 @@
   padding-bottom: 233px;
   background-color: #000915;
 }
-.seasons-game__title {
+.play-game__title {
   margin-bottom: 32px;
   font-size: 48px;
   font-weight: 700;
   color: #fff;
 }
-.seasons-game__text {
+.play-game__text {
   margin-bottom: 32px;
   width: 584px;
   font-size: 18px;
@@ -137,7 +137,7 @@
   .game {
     width: 343px;
   }
-  .seasons-game {
+  .play-game {
     flex-wrap: wrap;
     justify-content: space-around;
     gap: 64px;
@@ -145,17 +145,20 @@
     padding-top: 51px;
     padding-bottom: 85px;
   }
-  .seasons-game__title {
+  .play-game__title {
     font-size: 32px;
   }
-  .seasons-game__text {
+  .play-game__text {
     width: 100%;
     font-size: 14px;
     line-height: 22px;
   }
-  .seasons-game__img {
+  .play-game__img {
     justify-self: center;
     max-width: 314px;
+  }
+  .remember-game {
+    flex-wrap: wrap-reverse;
   }
 }
 @media (min-width: 769px) and (max-width: 1240px) {
@@ -168,7 +171,7 @@
     align-items: center;
     justify-content: center;
   }
-  .seasons-game {
+  .play-game {
     flex-wrap: wrap;
     gap: 64px;
   }
