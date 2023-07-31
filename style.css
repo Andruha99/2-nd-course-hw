@@ -107,6 +107,35 @@
   color: #fff;
 }
 
+.riddles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+  background-image: url(./image/bck-riddle.svg);
+}
+.riddles__info {
+  text-align: center;
+}
+.riddles__text {
+  width: 1200px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+  background-color: #000915;
+}
+.footer__text {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.63px;
+}
+
 @media (max-width: 768px) {
   .center {
     padding-left: 16px;
@@ -160,6 +189,10 @@
   .remember-game {
     flex-wrap: wrap-reverse;
   }
+  .riddles {
+    align-items: flex-start;
+    padding-top: 51px;
+  }
 }
 @media (min-width: 769px) and (max-width: 1240px) {
   .center {
@@ -174,6 +207,9 @@
   .play-game {
     flex-wrap: wrap;
     gap: 64px;
+  }
+  .riddles__text {
+    width: 95%;
   }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
