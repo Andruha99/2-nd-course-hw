@@ -28,7 +28,7 @@
     <main class="main center">
       <div class="game-container">
         <div class="game" onclick="seasonGame()">Игра 1</div>
-        <div class="game">Игра 2</div>
+        <div class="game" onclick="rememberGame()">Игра 2</div>
         <div class="game">Игра 3</div>
       </div>
 
@@ -58,7 +58,9 @@
             При нажатии на кнопку играть, вы увидите несколько слов, которые вам
             необходимо запомнить.
           </p>
-          <button class="header__button">Играть!</button>
+          <button class="header__button" onclick="rememberGame()">
+            Играть!
+          </button>
         </div>
       </div>
     </main>
@@ -77,6 +79,6 @@
       <p class="footer__text">Все права защищены</p>
     </footer>
     <script src="season-game.js"></script>
-    <script src="./JS/hw-6.js"></script>
+    <script src="./remember-game.js"></script>
   </body>
 </html>
