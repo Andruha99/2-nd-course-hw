@@ -88,4 +88,4 @@ function sayHi(name) {
 // Код выше менять нельзя
 
 // Нужно изменить код ниже:
-delayForSecond(() => setTimeout(() => sayHi("Глеб"), 1000));
+delayForSecond(() => sayHi("Глеб"));
